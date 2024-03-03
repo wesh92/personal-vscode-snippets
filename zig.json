@@ -1,0 +1,20 @@
+{
+	"Zig Pub Function": {
+		"prefix": "pub",
+		"body": [
+			"pub fn ${1:fnName}() ${2:fnOutType} {",
+			"",
+			"    }$0"
+		],
+		"description": "Zig Pub Function"
+	},
+	"Zig Internal Function": {
+		"prefix": "fn",
+		"body": [
+		  "fn ${1:fnName}() ${2:!void} {",
+		  "",
+		  "    }$0"
+		],
+		"description": "Zig Internal Function"
+	  }
+}
